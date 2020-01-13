@@ -26,6 +26,10 @@ We use GroupEmoW in this demo code. GroupEmoW is a new group-level Emotion Datas
 ## Face patches. 
 Faces are extracted and aligned using MTCNN, readers can follow MTCNN link (https://github.com/kpzhang93/MTCNN_face_detection_alignment) to extract faces of their own database.
 
+## Downloaded the pretrained models
+Download link: https://drive.google.com/drive/folders/1S2xCcLmh8MlqwZX_WFibzjGdbvngBM1-?usp=sharing
+Save the downloaded models into pretrained_models folder.
+
 ## Extract vgg face features from face patches. 
 The vgg model deploy file and a pre-trained vgg face model for group level emotion recognition are saved in folder pretrained_models. 
 
