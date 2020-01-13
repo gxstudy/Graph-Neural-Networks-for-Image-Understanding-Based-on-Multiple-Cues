@@ -79,6 +79,8 @@ python main.py --train_or_test test --org_path ./data/Original/Val --face_featur
 python main.py --train_or_test test --org_path ./data/Original/Test --face_feature_path ./data/faces_MTCNN_vgg_features/Test --object_feature_path ./data/object_senet_features/Test --scene_feature_path ./data/scene_features/Test --model_path ./models/GNN_model
 '''
 
+# Cite
+If you have used any of the data or code, please cite the following paper: 
 
 @INPROCEEDINGS{guo2020graph,
     title={Graph Neural Networks for Image Understanding Based on Multiple Cues: Group Emotion Recognition and Event Recognition as Use Cases},
