@@ -62,13 +62,6 @@ python extract_features.py --model ./pretrained_models/group_inception_scene.caf
 '''            
 Then the scene features will be extracted and saved in ./data/scene_features.
 
-For convience, we provide the following items together with the GroupEmoW dataset. 
-1. Extracted and aligned faces of each image using the MTCNN method.
-2. Features of each face extracted using a vgg-face model.
-3. Objects of each image detected using a bottom-up attention model.
-4. Features of each object extracted using a Senet-154 model.
-5. Scene features of each image extracted using an Inception-V2 model. 
-
 
 # Train GNN
 '''python
